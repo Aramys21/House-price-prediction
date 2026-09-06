@@ -1,0 +1,16 @@
+.venv/
+.history/
+
+# Local and generated ML artifacts
+data/raw/
+data/processed/
+data/predictions/
+models/
+mlruns/
+
+# Python cache and local tooling files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
