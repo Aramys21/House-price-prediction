@@ -14,3 +14,40 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .coverage
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Generated models
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Data generated during processing
+data/processed/
+data/interim/
